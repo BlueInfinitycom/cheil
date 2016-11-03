@@ -1,0 +1,283 @@
+
+body {
+	color: #545659;
+}
+
+a:hover {
+	font-weight: bold;
+	color: inherit;
+}
+
+h1, h2 {
+font-weight: bold;
+}
+
+h1 {
+	font-size: 42px;
+	margin-bottom: 30px;
+	// margin-left:50px;
+	// margin-right: 50px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+
+/* PAGE TOP CONTAINER */
+
+.page-top .page-top-container {
+	background-color:#cccccc; 
+	border-radius: 5px 5px 0 0; 
+	height: 40px;
+}
+
+
+/* PAGE BODY CONTAINER */
+
+.page-body-container {
+	box-shadow: 0 0 20px #cccccc;
+	margin-bottom: 50px;
+}
+
+/* TOP */
+
+.top, .top a {color: #a6a9aa;} 
+.top {
+	background-color: #f3f3f3;
+	padding: 15px 0;
+	font-size: 11px;
+}
+
+.top a{
+	text-decoration: underline;
+}
+
+
+/* NAVIGATION */
+
+.navigation .navbar-collapse {
+	box-shadow: none;
+	border:none;
+}
+.navigation .navbar-default {
+	background-color: #0057a4;
+	padding-top: 10px;
+}
+
+.navigation ul li {		
+	text-transform: uppercase;
+}
+
+.navigation .MenuContainer {
+	width:100%;
+	line-height: 4;
+}
+
+.navigation .MenuContainer li {
+	margin-right: 15px;
+	text-align: left;
+}
+
+.navigation .MenuContainer li:last-child {
+	// margin-left: 30%;
+	float: right;
+	line-height: 5;
+}
+
+.navigation ul li a {
+	font-size: 12px;
+	font-weight:500;
+	color: #ffffff;
+	display: block;
+}
+
+.glyphicon-user {
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+
+/* HEADER - DISCOVER */
+
+.discover {
+	text-align: center;
+	background-image: url("../img/discover-top-bg.png"), url("../img/discover-bottom-bg.png");
+	background-position: top left, bottom left;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.discover .cta-bt {
+	padding:15px 20px;
+	background-color: #0079c2;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	display: inline-block;
+}
+
+.discover .mobiles {
+	margin:30px 0;
+}
+
+.discover .second-mobile {
+	margin-top: 100px;
+}
+
+
+/* VIRTUAL REALITY */
+
+.virtual-reality {
+	text-align: center;
+}
+
+.virtual-reality .cta-link {
+	font-size: 15px;
+	font-weight: bold;
+	color:#3c3c3b;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: underline;
+}
+
+.virtual-reality {
+	background-color: #f9f9f9;
+}
+
+.virtual-reality .glyphicon-triangle-right {
+	color:#0079c2;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.virtual-reality p {
+	margin:0 150px;
+}
+
+
+footer {
+	background-color: #f9f9f9;
+}
+
+footer .footer-bottom {
+	width: 100%;
+	background-color: red;//#f3f3f3;
+}
+
+footer p{
+	color: #a6a9aa;
+	font-size: 12px;
+	margin: 0;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+
+footer p:first-child {
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+footer p:last-child {
+	padding-bottom: 15px;
+}
+
+footer .bg-info {
+	background-color: #f9f9f9;
+}
+
+footer nav {
+	margin: 25px 0;
+}
+
+footer nav ul li{
+	text-transform: uppercase;
+	margin-right: 50px;	
+}
+
+footer nav ul li a {
+	color: #5b5e5e;
+}
+
+footer .logo-blue {
+		margin: 20px 0;
+}
+
+
+.icon {
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #a6a9aa;
+	margin: 23px 0;
+}
+
+.icon:before {
+	width: 100%;
+	height: 100%;	
+	display: inline-block;
+	text-align: center;
+}
+
+.icon__fb:before {
+	content: url("../img/icon-fb.png");
+}
+
+.icon__twitter:before {
+	content: url("../img/icon-twitter.png");
+}
+
+.icon__google:before {
+	content: url("../img/icon-google.png");
+}
+
+.icon__instagram:before {
+	content: url("../img/icon-instagram.png");
+}
+
+.icon__youtube:before {
+	content: url("../img/icon-youtube.png");
+}
+
+@media (max-width: 768px) {
+	
+	.navigation .navbar-default {
+		padding-bottom: 15px;
+	}
+
+	.navigation .MenuContainer li, .navigation .MenuContainer li a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.navigation .MenuContainer li:last-child {
+		margin-left: auto;
+		display: block;
+	}
+
+	.discover .second-mobile {
+		margin: 30px 0;
+	}
+
+	.discover .bt-cta {
+		margin-bottom: 50px;
+	}
+
+	footer {
+		text-align: center;
+	}
+}
